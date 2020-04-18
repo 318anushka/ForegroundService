@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private void myMessage() {
 
         String message = "Please help me. \n My location is::: lattitude:"+" "+ lattitude+" "+"longitude:"+" "+longitude;
-        String phone = "9694625490";
+        String phone = "0000000000";
 
         SmsManager smsManager = SmsManager.getDefault();
         smsManager.sendTextMessage(phone , null , message , null , null );
